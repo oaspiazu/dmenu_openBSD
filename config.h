@@ -15,7 +15,7 @@ static const char *colors[SchemeLast][2] = {
 
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
-static unsigned int lines      = 0;
+static unsigned int lines      = 5;
 /* -h option; minimum height of a menu line */
 static unsigned int lineheight = 25;
 static unsigned int min_lineheight = 8;
@@ -32,3 +32,6 @@ static const unsigned int alphas[][3]      = {
  * for example: " /?\"&[]"
  */
 static const char worddelimiters[] = " ";
+
+/* Size of the window border */
+static const unsigned int border_width = 3;
